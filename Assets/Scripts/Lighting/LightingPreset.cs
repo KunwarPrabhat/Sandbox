@@ -7,4 +7,9 @@ public class LightingPreset : ScriptableObject
     public Gradient AmbientColor;
     public Gradient DirectionalColor;
     public Gradient FogColor;
+
+    [Header("Skybox Colors")]
+    public Gradient SkyColorTop;
+    public Gradient SkyColorBottom;
+    public Gradient HorizonColor;
 }
